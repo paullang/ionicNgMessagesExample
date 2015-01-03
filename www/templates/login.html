@@ -25,7 +25,7 @@
           <div class="form-error" ng-message="required">Please enter your Password</div>
         </div>
         <label class="item">
-          <button class="button button-block button-positive" type="submit">Log in</button>
+          <button class="button button-block button-positive" type="submit" ng-disabled="loginForm.$invalid">Log in</button>
         </label>
       </div>
     </form>

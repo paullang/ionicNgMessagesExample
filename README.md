@@ -20,6 +20,8 @@ You can override any one of these at the field level if you needed to.
 
 7. Modify www/templates/login.html to include ng-messages and name attributes for the HTML <form> and <input> tags.
 
+8. Add ng-disabled="loginForm.$invalid" to the Log in button
+
 
 ## References
 * I followed the blog post at [http://www.yearofmoo.com/2014/05/how-to-use-ngmessages-in-angularjs.html](http://www.yearofmoo.com/2014/05/how-to-use-ngmessages-in-angularjs.html).
