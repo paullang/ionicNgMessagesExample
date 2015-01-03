@@ -11,14 +11,14 @@ These were the steps I took to create this example
 
 3. `bower install angular-messages#1.3.6 --save`
 
-4. Add ```html<script src="lib/angular-messages/angular-messages.min.js"></script>``` to www/index.html
+4. Add `<script src="lib/angular-messages/angular-messages.min.js"></script>` to www/index.html
 
-5. Inject ngMessages into the app `angular.module('starter', ['ionic', 'starter.controllers','ngMessages'])`
+5. Inject ngMessages into www/js/app.js `angular.module('starter', ['ionic', 'starter.controllers','ngMessages'])`
 
 6. Create www/templates/error-messages.html with default messages that can be included from across the app.
 You can override any one of these at the field level if you needed to.
 
-7. Modified www/templates/login.html to include ng-messages and name attributes for the HTML <form> and <input> tags.
+7. Modify www/templates/login.html to include ng-messages and name attributes for the HTML <form> and <input> tags.
 
 
 ## References
