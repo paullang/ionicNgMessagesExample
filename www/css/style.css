@@ -1,0 +1,10 @@
+/* Empty. Add your own CSS if you like */
+
+/** Styling for the error text and container **/
+.form-errors {
+  margin: 5px 0
+}
+.form-error {
+  padding: 2px 0 2px 16px;
+  color: red;
+}
