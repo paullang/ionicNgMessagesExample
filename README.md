@@ -27,3 +27,7 @@ You can override any one of these at the field level if you needed to.
 * You should also watch [https://egghead.io/lessons/angularjs-introduction-to-ng-messages-for-angularjs](https://egghead.io/lessons/angularjs-introduction-to-ng-messages-for-angularjs)
 
 * You can also read this example [http://calendee.com/2014/12/26/validation-in-ionic-framework-apps-with-ngmessages/](http://calendee.com/2014/12/26/validation-in-ionic-framework-apps-with-ngmessages/)
+
+* More information about $touched and $pending here [http://www.htmlxprs.com/post/11/angularjs-1.3-form-validation-tutorial](http://www.htmlxprs.com/post/11/angularjs-1.3-form-validation-tutorial)
+
+* And finally, official API documentation here [https://docs.angularjs.org/api/ngMessages](https://docs.angularjs.org/api/ngMessages)
